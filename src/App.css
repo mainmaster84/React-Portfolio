@@ -1,31 +1,61 @@
-:root {
-  --primary-orange: #f9ab00;
-  --primary-dark: rgba(255,255,255,0);
+.header-color {
+  background: #833ab4;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.logo {
-  font-size: 100px;
+.landing-grid {
+  background: #833ab4;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
-nav a.nav-link {
-  letter-spacing: 0.6px;
-  cursor: pointer;
+.avatar-img {
+  height: 250px;
+  padding-top: 5em;
 }
 
-nav ul li {
-  text-transform: uppercase;
+.banner-text {
+  background-color: black;
+  opacity: .8;
+  width: 75%;
+  margin: auto;
+  border-radius: 10px;
 }
 
-.navbar-nav > li > a {
-  margin-right: 12px;
-  margin-left: 12px;
-  border-top: 3px solid var(--primary-dark);
+.banner-text h1 {
+  font-size: 66px;
+  font-weight: bold;
+  color: white;
 }
 
-.navbar-nav > li > a.active, .navbar-nav > li > a.active:focus {
-  border-top: 3px solid var(--primary-orange);
+.banner-text hr {
+  border-top: 5px dotted white;
+  width: 50%;
+  margin: auto;
 }
 
-.navbar-nav > li > a:hover {
-  border-top: 3px solid var(--primary-orange);
+.banner-text p {
+  color: white;
+  font-size: 20px;
+  padding: 1em;
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+}
+
+.social-links i {
+  color: white;
+  font-size: 5em;
+  padding: 8px;
 }
