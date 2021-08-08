@@ -1,9 +1,10 @@
 import React from 'react'
-import image from "../../assets/About/me.jpg";
+import image from "../assets/About/me.jpg";
 
 function About() {
   return (
-    <section className="my-5">
+    <div className="container">
+    <section>
       <h1 id="about">About Me</h1>
       <img src={image} className='my-2' alt='cover' />
       <div className="my-2">
@@ -14,6 +15,7 @@ function About() {
         </p>
       </div>
     </section>
+    </div>
   );
 }
 
