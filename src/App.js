@@ -7,8 +7,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
     return (
       <div>
-          <Nav></Nav>
-          <Main></Main>
+        <Nav></Nav>
+        <Main></Main>
       </div>
     );
   }

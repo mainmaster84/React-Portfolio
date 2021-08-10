@@ -1,4 +1,25 @@
+button {
+	background: #8c54ff;
+	border: 0;
+	border-radius: 5px;
+	color: #fff;
+	cursor: pointer;
+	font-size: 16px;
+	font-weight: 600;
+	margin-bottom: 30px;
+	padding: 10px 15px;	
+}
 
+h1, h2, ul, li {
+  color: white;
+}
+
+label {
+  color: white;
+}
+.about {
+  background: navy;
+}
 .social-links {
   display: flex;
   justify-content: space-between;
